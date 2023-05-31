@@ -1,0 +1,224 @@
+ /*for all html eml */
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+ }
+ body {
+     background: #827f7f;
+ }
+ .card {
+     width: 30vw;
+     background: linear-gradient(135deg, #f5a4dd, #7763f9);
+     color: #fff;
+     margin: 40px auto 0;
+     border-radius: 18px;
+     padding: 40px 20px;
+     text-align: center;
+     height: 90vh;
+ }
+ .search {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .search input {
+     border: 0;
+     outline: 0;
+     background: #ebfffc;
+     color: #555;
+     padding: 1rem 1.5rem;
+     height: 7vh;
+     border-radius: 2rem;
+     flex: 1;
+     margin-right: 0.1rem;
+     font-size: 1.3rem;
+     box-shadow: 0 1px 8px rgb(168, 164, 164);
+ }
+ .search input:hover {
+     /* background-color: #b6b0b0; */
+     color: #121313;
+     box-shadow: 0 1px 8px rgb(75, 69, 69);
+ }
+ .search button {
+     border: 0;
+     outline: 0;
+     background: #ebfffc;
+     border-radius: 50%;
+     width: 3vw;
+     height: 6.5vh;
+     cursor: pointer;
+     box-shadow: 0 1px 8px rgb(168, 164, 164);
+ }
+ .search button:hover {
+     /* background-color: #b6b0b0; */
+     color: #121313;
+     box-shadow: 0 1px 8px rgb(75, 69, 69);
+ }
+ .search button img {
+     width: 1vw;
+ }
+ .weather-icon {
+     width: 6vw;
+     margin-top: 0vh;
+ }
+ .weather h1 {
+     font-size: 2rem;
+     font-weight: 400;
+ }
+ .weather h2 {
+     font-size: 2.4rem;
+     font-weight: 400;
+     margin-top: 0.9rem;
+ }
+ .details {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.5rem 0.5rem;
+     margin-top: 4rem;
+ }
+ .col {
+     display: flex;
+     align-items: center;
+     text-align: left;
+     padding: 21px;
+ }
+ .col img {
+     width: 3rem;
+     margin-right: .8rem;
+ }
+ .humadity,
+ .wind {
+     font-size: 1.5rem;
+     margin-top: -.5rem;
+ }
+ .weather {
+     display: none;
+ }
+ .error {
+     text-align: left;
+     margin-left: 1rem;
+     font-size: 2rem;
+     margin-top: 1rem;
+     color: rgb(240, 236, 236);
+     display: none;
+ }
+ .city {
+     color: rgb(27, 247, 174);
+ }
+ #title {
+     font-size: 1.3rem;
+     padding-bottom: 0px;
+     margin-top: -25px;
+ }
+ #flag {
+     width: 5vw;
+     height: 8vh;
+     cursor: pointer;
+ }
+ @media only screen and (max-width: 1315px) {
+     .card {
+         width: 93vw;
+         background: linear-gradient(135deg, #f5a4dd, #7763f9);
+         color: #fff;
+         margin: 40px auto 0;
+         border-radius: 18px;
+         padding: 82px 20px;
+         text-align: center;
+         height: 91vh;
+     }
+     .search {
+         width: 79vw;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         height: 5vh;
+     }
+     .search button {
+         border: 0;
+         outline: 0;
+         background: #ebfffc;
+         border-radius: 50%;
+         width: 12vw;
+         height: 6.7vh;
+         cursor: pointer;
+     }
+     .search button img {
+         width: 3vw;
+         height: 2vh;
+     }
+     .search input {
+         border: 0;
+         outline: 0;
+         background: #ebfffc;
+         color: #555;
+         padding: 1rem 2rem;
+         height: 6.5vh;
+         border-radius: 2rem;
+         flex: 1;
+         margin-right: 0;
+         font-size: 1.3rem;
+         width: 25vw;
+     }
+     .error {
+         font-size: 20px;
+         font-weight: 200;
+         color: aliceblue;
+     }
+     .weather {
+         width: 71vw;
+     }
+     .weather-icon {
+         width: 20vw;
+         margin-top: 1vh;
+     }
+     .weather h1 {
+         font-size: 9vw;
+         font-weight: 200;
+         margin-top: 0px;
+     }
+     .weather h2 {
+         font-size: 8vw;
+         font-weight: 400;
+         margin-top: 0.9rem;
+     }
+     .details {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 1rem;
+         flex-wrap: wrap;
+         width: 20vw;
+     }
+     .col {
+         display: flex;
+         align-items: center;
+         text-align: left;
+         padding: 16px;
+         margin-top: -3px;
+     }
+     .col p {
+         display: flex;
+         padding: 0.61vw;
+         font-size: 4vw;
+     }
+     .col img {
+         width: 2.6rem;
+         margin: 4px;
+         margin-left: 61px;
+     }
+     #title {
+         font-size: 1.5rem;
+         padding-bottom: 23px;
+         margin-top: -40px;
+     }
+     #flag {
+         width: 21vw;
+         height: 8vh;
+         cursor: pointer;
+         margin-top: -25px;
+     }
+ }
